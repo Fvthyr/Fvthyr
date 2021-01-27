@@ -70,6 +70,7 @@ header h1 {
 	header .profile {
 		width: 400px;
 		height: 400px;
+		margin: auto;
 		background-image: url(img/profilephone.png);
 	}
 
