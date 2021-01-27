@@ -1,0 +1,66 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: black;
+	font-family: 'Varela Round', arial, sans-serif;
+	color: white;
+}
+
+header {
+	width: 100%;
+	height: auto;
+	display: grid;
+	justify-content: center;
+}
+
+header img {
+	margin: 30px auto;
+	border: 1px solid white;
+}
+
+header h1 {
+	font-size: 50px;
+	text-align: center;
+}
+.about {
+	width: 70%;
+	margin: auto;
+}
+.about h2, p {
+	margin: 20px;
+}
+
+.sosmed {
+	margin-top: 40px;
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(70px, 1fr));
+	align-items: center;
+	gap: 15px;
+}
+
+.sosmed a {
+	justify-content: center;
+}
+
+.back {
+	background-color: red;
+	color: white;
+}
+
+.home {
+	margin-top: 50px;
+}
+.home a {
+	color: white;
+	text-decoration: none;
+}
+/*  */
+
+@media (max-width: 420px) {
+	body {
+		width: 420px;
+	}
+}
