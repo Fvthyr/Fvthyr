@@ -68,10 +68,11 @@ header h1 {
 
 @media (max-width: 1024px) {
 	header .profile {
-		width: 400px;
-		height: 400px;
+		width: 60%;
+		height: auto;
 		margin: auto;
 		background-image: url(img/profilephone.png);
+		background-size: cover;
 	}
 
 	header h1 {
